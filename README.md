@@ -30,19 +30,17 @@ duplicity /mydocuments rclone://gdrive:/mydocuments
 
 # Development setup (John Radley)
 Windows 10 Host, VirtualBox 6.1.0, Ubuntu 19.10
-Installed Brew, from https://docs.brew.sh/Homebrew-on-Linux
-Installed Pipenv, from https://pipenv-fork.readthedocs.io/en/latest
-  using: $brew install pipenv
-Installed Pycharm Community Edition (excellent!)
---as the honesty of the original author, my Python skills are low.
--- it took longer to setup development environment than fix the software!!
+Installed Brew, from https://docs.brew.sh/Homebrew-on-Linux\
+Installed Pipenv, from https://pipenv-fork.readthedocs.io/en/latest\
+  using: $brew install pipenv\
+Installed Pycharm Community Edition (excellent!)\
+--as the honesty of the original author, my Python skills are low.\
+-- it took longer to setup development environment than fix the software!!\
 
 # Test commands (so far!), for Pycharm's parameters field. First to see how code runs!
-full -v 9 --log-file=/home/john/duplicitytest-dest/log.log /home/john/duplicitytest-src/ file:///home/jradley/duplicitytest-dest
-
-full -v 9 --log-file=/home/john/duplicitytest-dest/log.log /home/john/duplicitytest-src/ rclone://Box1:/test001
-
-remove-older-than now --force -v 9 --log-file=/home/john/duplicitytest-dest/log.log  rclone://Box1:/test001
+full -v 9 --log-file=/home/john/duplicitytest-dest/log.log /home/john/duplicitytest-src/ file:///home/jradley/duplicitytest-dest\
+full -v 9 --log-file=/home/john/duplicitytest-dest/log.log /home/john/duplicitytest-src/ rclone://Box1:/test001\
+remove-older-than now --force -v 9 --log-file=/home/john/duplicitytest-dest/log.log  rclone://Box1:/test001\
 
 
 //End
