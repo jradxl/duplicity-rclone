@@ -30,8 +30,8 @@ duplicity /mydocuments rclone://gdrive:/mydocuments
 
 # Development setup (John Radley)
 Windows 10 Host, VirtualBox 6.1.0, Ubuntu 19.10\
-Installed Brew, from https://docs.brew.sh/Homebrew-on-Linux\
-Installed Pipenv, from https://pipenv-fork.readthedocs.io/en/latest\
+Installed Brew, from https://docs.brew.sh/Homebrew-on-Linux ,\
+Installed Pipenv, from https://pipenv-fork.readthedocs.io/en/latest ,\
   using: $brew install pipenv\
 Installed Pycharm Community Edition (excellent!)\
 -- like the honesty of the original author, my Python skills are low.\
