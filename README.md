@@ -35,7 +35,7 @@ Installed Pipenv, from https://pipenv-fork.readthedocs.io/en/latest\
   using: $brew install pipenv\
 Installed Pycharm Community Edition (excellent!)\
 -- like the honesty of the original author, my Python skills are low.\
--- it took longer to setup development environment than fix the software!!\
+-- it took longer to setup development environment than fix the software!!
 
 # Test commands (so far!), for Pycharm's parameters field. First to see how code runs!
 full -v 9 --log-file=/home/john/duplicitytest-dest/log.log /home/john/duplicitytest-src/ file:///home/jradley/duplicitytest-dest\
