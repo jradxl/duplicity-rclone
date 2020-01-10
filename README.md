@@ -39,7 +39,9 @@ Installed Pycharm Community Edition (excellent!)
 
 # Test commands (so far!), for Pycharm's parameters field. First to see how code runs!
 full -v 9 --log-file=/home/john/duplicitytest-dest/log.log /home/john/duplicitytest-src/ file:///home/jradley/duplicitytest-dest
+
 full -v 9 --log-file=/home/john/duplicitytest-dest/log.log /home/john/duplicitytest-src/ rclone://Box1:/test001
+
 remove-older-than now --force -v 9 --log-file=/home/john/duplicitytest-dest/log.log  rclone://Box1:/test001
 
 
