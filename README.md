@@ -34,7 +34,7 @@ Installed Brew, from https://docs.brew.sh/Homebrew-on-Linux\
 Installed Pipenv, from https://pipenv-fork.readthedocs.io/en/latest\
   using: $brew install pipenv\
 Installed Pycharm Community Edition (excellent!)\
---as the honesty of the original author, my Python skills are low.\
+-- like the honesty of the original author, my Python skills are low.\
 -- it took longer to setup development environment than fix the software!!\
 
 # Test commands (so far!), for Pycharm's parameters field. First to see how code runs!
