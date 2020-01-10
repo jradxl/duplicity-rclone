@@ -29,7 +29,7 @@ duplicity /mydocuments rclone://gdrive:/mydocuments
 **Please note the slash after the second colon.** Some storage provider will work with or without slash after colon, but some other will not. Since duplicity will complain about malformed URL if a slash is not present, **always put it after the colon**, and the backend will handle it for you.
 
 # Development setup (John Radley)
-Windows 10 Host, VirtualBox 6.1.0, Ubuntu 19.10
+Windows 10 Host, VirtualBox 6.1.0, Ubuntu 19.10\
 Installed Brew, from https://docs.brew.sh/Homebrew-on-Linux\
 Installed Pipenv, from https://pipenv-fork.readthedocs.io/en/latest\
   using: $brew install pipenv\
